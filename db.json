@@ -1,40 +1,34 @@
 {
-    "tasks": [
-        {
-            "id": 1,
-            "tarefa": "Estudar Design Patterns",
-            "categoria": "Estudos",
-            "concluido": false
-        },
-        {
-            "id": 2,
-            "tarefa": "Ir para acadêmia",
-            "categoria": "Atividade Física",
-            "concluido": true
-        },
-        {
-            "id": 3,
-            "tarefa": "Estudar Angular",
-            "categoria": "Estudos",
-            "concluido": true
-        },
-        {
-            "id": 4,
-            "tarefa": "Estudar Design Patterns",
-            "categoria": "Estudos",
-            "concluido": false
-        },
-        {
-            "id": 5,
-            "tarefa": "Ir para acadêmia",
-            "categoria": "Atividade Física",
-            "concluido": true
-        },
-        {
-            "id": 6,
-            "tarefa": "Estudar Angular",
-            "categoria": "Estudos",
-            "concluido": true
-        }
-    ]
+  "tasks": [
+    {
+      "id": "2",
+      "tarefa": "Estudar Angular",
+      "categoria": "Estudos",
+      "concluido": true
+    },
+    {
+      "id": "3",
+      "tarefa": "Estudar Angular",
+      "categoria": "Estudos",
+      "concluido": true
+    },
+    {
+      "id": "4",
+      "tarefa": "Estudar Angular",
+      "categoria": "Estudos",
+      "concluido": true
+    },
+    {
+      "id": "5",
+      "tarefa": "Estudar Angular",
+      "categoria": "Estudos",
+      "concluido": true
+    },
+    {
+      "id": "6",
+      "tarefa": "Estudar Angular",
+      "categoria": "Estudos",
+      "concluido": true
+    }
+  ]
 }

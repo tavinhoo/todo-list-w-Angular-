@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Tarefa } from '../../../Tarefa';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
@@ -14,10 +14,15 @@ import { CommonModule } from '@angular/common';
 
 export class TaskItemComponent {
 
-  @Input() tarefa!: Tarefa;
-
-
+  @Input() 
+  tarefa!: Tarefa;
 
   faTimes = faTimes;
+
+  @Output() onDeleteTask = new EventEmitter<Tarefa>();
+
+  onDelete(tarefa: Tarefa) {
+    this.onDeleteTask.emit(tarefa);
+  }
 
 }
