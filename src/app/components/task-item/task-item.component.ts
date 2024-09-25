@@ -14,15 +14,18 @@ import { CommonModule } from '@angular/common';
 
 export class TaskItemComponent {
 
-  @Input() 
-  tarefa!: Tarefa;
+  @Input() tarefa!: Tarefa;
+  @Output() onDeleteTask = new EventEmitter<Tarefa>();
+  @Output() onToggleConcluido = new EventEmitter<Tarefa>();
 
   faTimes = faTimes;
 
-  @Output() onDeleteTask = new EventEmitter<Tarefa>();
-
   onDelete(tarefa: Tarefa) {
     this.onDeleteTask.emit(tarefa);
+  }
+
+  onToggle(tarefa: Tarefa) {
+    this.onToggleConcluido.emit(tarefa);
   }
 
 }

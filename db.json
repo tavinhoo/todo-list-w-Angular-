@@ -1,33 +1,27 @@
 {
   "tasks": [
     {
-      "id": "2",
+      "id": "1",
       "tarefa": "Estudar Angular",
       "categoria": "Estudos",
       "concluido": true
     },
     {
       "id": "3",
-      "tarefa": "Estudar Angular",
+      "tarefa": "Estudar Matemática",
       "categoria": "Estudos",
       "concluido": true
     },
     {
       "id": "4",
-      "tarefa": "Estudar Angular",
-      "categoria": "Estudos",
+      "tarefa": "Organizar Mochila",
+      "categoria": "Organização",
       "concluido": true
     },
     {
       "id": "5",
-      "tarefa": "Estudar Angular",
-      "categoria": "Estudos",
-      "concluido": true
-    },
-    {
-      "id": "6",
-      "tarefa": "Estudar Angular",
-      "categoria": "Estudos",
+      "tarefa": "Pagar acadêmia",
+      "categoria": "Contas",
       "concluido": true
     }
   ]
